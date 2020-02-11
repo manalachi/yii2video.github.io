@@ -8,6 +8,9 @@
     {
         public function actionIndex() 
         {
+                // \yii::debug( "Hello from actionIndex");
+                // \yii::warning("Warning Tea");
+                // \yii::error("Open optional error");
                 return $this->render('index');
         }
         public function actionJoin() 
